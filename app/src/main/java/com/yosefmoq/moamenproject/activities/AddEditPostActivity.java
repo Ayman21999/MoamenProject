@@ -21,6 +21,7 @@ import com.google.firebase.storage.StorageReference;
 import com.nguyenhoanglam.imagepicker.ui.imagepicker.ImagePicker;
 import com.squareup.picasso.Picasso;
 import com.yosefmoq.moamenproject.R;
+import com.yosefmoq.moamenproject.models.Post;
 
 import java.util.ArrayList;
 

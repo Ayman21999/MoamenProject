@@ -12,11 +12,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.yosefmoq.moamenproject.MainActivity;
 import com.yosefmoq.moamenproject.R;
+import com.yosefmoq.moamenproject.TDD.SigninActivityPresnterInterfac;
+import com.yosefmoq.moamenproject.TDD.SigninActivityViewPresnterInterfac;
 import com.yosefmoq.moamenproject.models.User;
 import com.yosefmoq.moamenproject.utils.Session;
 import com.yosefmoq.moamenproject.utils.Validator;
 
-public class SigninActivity extends AppCompatActivity {
+public class SigninActivity extends AppCompatActivity implements SigninActivityViewPresnterInterfac {
     String password, username;
     EditText etUsername, etPassword;
     Button btnLogin;
@@ -71,5 +73,25 @@ public class SigninActivity extends AppCompatActivity {
                 Toast.makeText(this, "error in email or password", Toast.LENGTH_SHORT).show();
             }
         });
+    }
+//
+//    @Override
+//    public void updateEmail(String email) {
+//
+//    }
+
+    @Override
+    public boolean setemail(String email) {
+        return false;
+    }
+
+    @Override
+    public void updatepass(String password) {
+
+    }
+
+    @Override
+    public void printMessage() {
+
     }
 }

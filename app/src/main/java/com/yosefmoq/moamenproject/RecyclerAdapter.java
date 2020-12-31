@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.yosefmoq.moamenproject.activities.AddEditPostActivity;
-import com.yosefmoq.moamenproject.activities.Post;
+import com.yosefmoq.moamenproject.models.Post;
 import com.yosefmoq.moamenproject.utils.Session;
 
 import java.util.List;

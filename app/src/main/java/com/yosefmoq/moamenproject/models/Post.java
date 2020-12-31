@@ -1,4 +1,4 @@
-package com.yosefmoq.moamenproject.activities;
+package com.yosefmoq.moamenproject.models;
 
 public class Post {
         private int id;

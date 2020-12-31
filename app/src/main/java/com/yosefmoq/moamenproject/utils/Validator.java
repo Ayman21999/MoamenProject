@@ -1,9 +1,10 @@
 package com.yosefmoq.moamenproject.utils;
 
 public class Validator {
-        String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
         public static boolean isEmailValid(String email){
-                return email.length() > 10 && email.contains("@") && email.contains(".");
+                String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+
+                return email.length() > 10 && email.contains("@") && email.contains(".") && email.matches(emailPattern);
         }
 
         public static boolean isValidUsername(String name){
