@@ -38,7 +38,7 @@ public class SigninAvtivityPrescnter implements SigninActivityPresnterInterfac {
     String userpassword  = "";
 
     if (email.equals(useremail) && password.equals(userpassword)){
-        System.out.println("Succsecfull Login ");
+        System.out.println("Suc csecfull Login ");
     }else {
         System.out.println("wrong  email or password");
     }
