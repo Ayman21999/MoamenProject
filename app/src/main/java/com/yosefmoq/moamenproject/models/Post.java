@@ -46,4 +46,6 @@ public class Post {
         public void setLike_count(int like_count) {
                 this.like_count = like_count;
         }
+
+
 }
